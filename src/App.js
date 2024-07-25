@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-   const myVariable = process.env.WOW;
+   const myVariable = process.env.REACT_APP_WOW;
    return (
       <div className="App">
          <header className="App-header">
